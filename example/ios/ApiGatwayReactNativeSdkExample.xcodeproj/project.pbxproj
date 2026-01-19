@@ -12,7 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C209D7712F12405E009B8124 /* bind-client-config.json in Resources */ = {isa = PBXBuildFile; fileRef = C209D7702F12405E009B8124 /* bind-client-config.json */; };
+		C27B1B672F1E0D52004D89E5 /* bind-client-config.json in Resources */ = {isa = PBXBuildFile; fileRef = C27B1B662F1E0D52004D89E5 /* bind-client-config.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-ApiGatwayReactNativeSdkExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApiGatwayReactNativeSdkExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ApiGatwayReactNativeSdkExample/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ApiGatwayReactNativeSdkExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C209D7702F12405E009B8124 /* bind-client-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bind-client-config.json"; sourceTree = "<group>"; };
+		C27B1B662F1E0D52004D89E5 /* bind-client-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bind-client-config.json"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				C209D7702F12405E009B8124 /* bind-client-config.json */,
+				C27B1B662F1E0D52004D89E5 /* bind-client-config.json */,
 				13B07FAE1A68108700A75B9A /* ApiGatwayReactNativeSdkExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -164,7 +164,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				04E74341564A845B23BE838C /* PrivacyInfo.xcprivacy in Resources */,
-				C209D7712F12405E009B8124 /* bind-client-config.json in Resources */,
+				C27B1B672F1E0D52004D89E5 /* bind-client-config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,9 +195,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ApiGatwayReactNativeSdkExample/Pods-ApiGatwayReactNativeSdkExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ApiGatwayReactNativeSdkExample/Pods-ApiGatwayReactNativeSdkExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -234,9 +238,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ApiGatwayReactNativeSdkExample/Pods-ApiGatwayReactNativeSdkExample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ApiGatwayReactNativeSdkExample/Pods-ApiGatwayReactNativeSdkExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -280,7 +288,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rideshare.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.world;
 				PRODUCT_NAME = ApiGatwayReactNativeSdkExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -311,7 +319,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rideshare.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.world;
 				PRODUCT_NAME = ApiGatwayReactNativeSdkExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

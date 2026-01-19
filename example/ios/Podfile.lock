@@ -1,5 +1,5 @@
 PODS:
-  - ApiGatwayReactNativeSdk (0.1.0):
+  - ApiGatwayReactNativeSdk (1.0.0):
     - React-Core
   - boost (1.84.0)
   - DoubleConversion (1.1.6)
@@ -2700,7 +2700,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  ApiGatwayReactNativeSdk: 6d77d8415329b2017c98b70b7fa891bba12d49d0
+  ApiGatwayReactNativeSdk: 2d89481f0d11381a6ba1f37fc752aa0bb4267515
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: b32c788ed9c6a8c584d114d0047beda9664e7cc6

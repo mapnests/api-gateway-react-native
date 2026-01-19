@@ -5,7 +5,7 @@ import ApiGatway from 'api-gateway-react-native';
 // Async wrapper to support native headers
 const baseQueryWithNativeHeaders = async (args: any, api: any, extraOptions: any) => {
   const baseQuery = fetchBaseQuery({
-    baseUrl: 'http://192.168.169.231:30702', // <-- Your server base URL
+    baseUrl: 'http://192.168.61.103:9880', // <-- Your server base URL
   });
 
   let nativeHeaders: Record<string, string> = {};
