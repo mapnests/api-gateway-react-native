@@ -1,6 +1,10 @@
 # api-gateway-react-native
 
-## Changelog (v1.0.0)
+## Changelog (v2.0.1)
+- Initial integration of the API Gateway SDK.
+
+
+## Changelog (v2.0.0)
 - Initial integration of the API Gateway SDK.
 
 ## Installation
@@ -9,7 +13,7 @@
 npm install api-gateway-react-native
 ```
 ## Usage
-
+mi
 ```js
 import ApiGatway from 'api-gateway-react-native';
 
