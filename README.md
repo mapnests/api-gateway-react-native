@@ -1,6 +1,6 @@
 # api-gateway-react-native
 
-## Changelog (v2.0.1)
+## Changelog (v2.0.2)
 - Initial integration of the API Gateway SDK.
 
 
